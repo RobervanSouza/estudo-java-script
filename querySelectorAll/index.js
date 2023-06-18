@@ -76,20 +76,17 @@ fetchButton.addEventListener('click', () => {
         })
         .then(data => {
             let cardCount = 0; // Variável para acompanhar a quantidade de cartões criados
-
             data.forEach(item => {
                 // Verificar se o número máximo de cartões foi atingido
                 if (cardCount >= maxCardCount) {
                     return; // Ignorar a criação de cartões adicionais
                 }
-
-                const truncatedText = item.body.slice(0, maxTextLength); // Obter o texto truncado
-
                 const card = document.createElement('div');
                 card.classList.add('card');
                 card.innerHTML = `
-                    <h3>${item.title}</h3>
-                    <p>${truncatedText}</p>
+                    <p>Id: ${item.id}</p>
+                    <h3> Titulo: ${item.title}</h3>
+                    <p> Descrição: ${item.body.slice(0, maxTextLength) }</p>
                 `;
                 container.appendChild(card);
 
