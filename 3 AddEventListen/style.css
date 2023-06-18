@@ -1,0 +1,55 @@
+
+
+/* #### nivel intermediario */
+
+h2 {
+  color: black;
+  cursor: pointer;
+}
+
+/* ######## super dificil */
+.container2 { 
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+
+button {
+  padding: 3px;
+  width: 83px;
+  height: 53px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.card{
+  background-color: aqua;
+  width: 223px;
+  height: 223px;
+  overflow: hidden;
+   display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+section.buton-section{
+  width: 100vw;
+  margin-bottom: 13px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
