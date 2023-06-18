@@ -1,55 +1,49 @@
+h1{
+  color: blue;
+}
+h2{
+  color: green;
+}
+h3{
+  color: red;
+}
 
-
-/* #### nivel intermediario */
-
-h2 {
-  color: black;
+/*3 #### nivel intermediario */
+p{
+  color: red;
+}
+button#myHeading{
+  background-color: white;
+  border: 3px solid black;
+  width: 423px;
+  height: 32px;
   cursor: pointer;
-}
-
-/* ######## super dificil */
-.container2 { 
-   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 3rem;
-}
-
-
-button {
-  padding: 3px;
-  width: 83px;
-  height: 53px;
-  background-color: blue;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-.card{
-  background-color: aqua;
-  width: 223px;
-  height: 223px;
   overflow: hidden;
-   display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-}
-
-section.buton-section{
-  width: 100vw;
-  margin-bottom: 13px;
   align-items: center;
   display: flex;
   justify-content: center;
+}
+/*3 ######## Nivel dificil ##########*/
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 14px;
+}
+
+/*3 ######## Nivel Super dificil ##########*/
+
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
 }
