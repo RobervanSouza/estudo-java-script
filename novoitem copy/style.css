@@ -1,0 +1,62 @@
+h1{
+  color: blue;
+}
+h2{
+  color: green;
+}
+h3{
+  color: red;
+}
+
+/*3 >>>>>>>>>>>>> Nivel Intermediario <<<<<<<<<<<< */
+.card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.card[data-color="blue"] {
+    background-color: blue;
+}
+
+.card[data-color="red"] {
+    background-color: red;
+}
+
+.card[data-color="green"] {
+    background-color: green;
+}
+
+
+/*3 >>>>>>>>>>>> Dificil <<<<<<<<<<<<< */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: width 1s, height 1s, background-color 1s;
+}
+
+.box[data-toggle="true"] {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+
+
+/*3 >>>>>>>>>>  Nivel Super Dificil <<<<<<<<<<<*/
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}

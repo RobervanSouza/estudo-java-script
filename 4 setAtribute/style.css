@@ -1,0 +1,35 @@
+h1{
+  color: blue;
+}
+h2{
+  color: green;
+}
+h3{
+  color: red;
+}
+
+/*3 >>>>>>>>>>>>> Nivel Intermediario <<<<<<<<<<<< */
+.highlight {
+    background-color: yellow;
+}
+
+/*3 >>>>>>>>>>>> Super Dificil <<<<<<<<<<<<< */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 1s, height 1s, background-color 1s;
+}
+
+
+/*3 >>>>>>>>>>  Nivel Super Dificil <<<<<<<<<<<*/
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}

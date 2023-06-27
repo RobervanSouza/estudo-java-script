@@ -27,7 +27,7 @@ clickButton.addEventListener('click', incrementCount);
 
 // 3 ############## Super Dificil #############
 
-const squares = document.querySelectorAll('#squareTable td');
+const cores = document.querySelectorAll('#squareTable td');
 
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
@@ -38,7 +38,7 @@ function getRandomColor() {
     return color;
 }
 
-squares.forEach(square => {
+cores.forEach(square => {
     square.addEventListener('click', function () {
         const color = getRandomColor();
         this.style.backgroundColor = color;
