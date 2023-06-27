@@ -27,7 +27,7 @@ toggleBtn.addEventListener('click', function () {
 
 
 // 3 >>>>>>>>>> Nivel  Super Dificil <<<<<<<<<<<
-const card = document.querySelector('.card');
+const card = document.querySelector('.card2');
 
 card.addEventListener('click', function () {
     const currentText = this.getAttribute('data-text');
